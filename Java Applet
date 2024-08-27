@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Cse</title>
+
+
+
+</head>
+<body>
+<center> <h1>SIMATS</h1></center>
+<br>
+<center><applet code="Myap" width="900" height="500">
+</center>
+</applet>
+</body>
+</html>
+
+import java.awt.*;
+import java.applet.*;
+public class Myap extends Applet
+
+{
+public void init()
+{
+setBackground(Color.green);
+}
+public void paint(Graphics g)
+{
+g.drawString("Java Programming",150,150);
+}
+}
